@@ -6,7 +6,7 @@
 
 # Front-End
 
-- **Front-End - Hosted link:**
+- **Front-End - Hosted link:** https://fe-mentor-interactive-challenge.netlify.app/
 
 # Description
 
