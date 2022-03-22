@@ -1,0 +1,38 @@
+.thank-you-container {
+  text-align: center;
+  padding: 1rem 2rem;
+  background-color: $form-color;
+  border-radius: 2rem;
+  width: 24rem;
+  img {
+    margin-top: 2rem;
+  }
+  .final-rating {
+    text-align: center;
+    border-radius: 2rem;
+    margin: 1.5rem 0rem 2rem;
+    .rating-text {
+      display: flex;
+      display: inline-block;
+      padding: 0.4rem 1rem;
+      background-color: $btn-color;
+      border-radius: 2rem;
+    }
+    h2 {
+      font-size: 0.8rem;
+      color: $orange;
+      font-weight: 500;
+    }
+  }
+  p {
+    font-size: 0.89rem;
+    margin: 00.7rem 0rem 2rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .thank-you-container {
+    width: 20rem;
+    padding: 1rem 1.4rem;
+  }
+}

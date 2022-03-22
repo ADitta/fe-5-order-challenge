@@ -1,0 +1,69 @@
+.feedback-container {
+  padding: 1.5rem 2rem 2rem;
+  background-color: $form-color;
+  border-radius: 2rem;
+  width: 22rem;
+}
+
+.star-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.7rem;
+  height: 2.7rem;
+  //   padding: 0.9rem;
+  border-radius: 50%;
+  background-color: $white-transparent;
+  margin-bottom: 1.8rem;
+}
+
+.rating-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0rem;
+}
+
+.rating-btn {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  border: none;
+  background-color: $btn-color;
+  color: $medium-grey;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  &:hover {
+    background-color: $orange;
+    color: white;
+  }
+}
+
+.selected-rating {
+  background-color: $medium-grey;
+  color: black;
+}
+
+.submit-btn {
+  width: 100%;
+  border-radius: 1.9rem;
+  border: none;
+  margin-top: 1rem;
+  padding: 0.7rem 0rem;
+  background-color: $orange;
+  color: $white;
+  letter-spacing: 0.1rem;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  &:hover {
+    background-color: $white;
+    color: $orange;
+  }
+}
+
+@media (max-width: 380px) {
+  .feedback-container {
+    width: 20rem;
+  }
+}

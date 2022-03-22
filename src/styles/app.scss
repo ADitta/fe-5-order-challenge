@@ -1,5 +1,40 @@
+$orange: hsl(25, 97%, 53%);
+$white: hsl(0, 0%, 100%);
+$white-transparent: hsla(0, 0%, 100%, 0.048);
+$light-grey: hsl(217, 12%, 63%);
+$medium-grey: hsla(216, 12%, 54%);
+$dark-blue: hsl(213, 19%, 18%);
+$very-dark-blue: hsl(216, 12%, 8%);
+$form-color: #1f2630;
+$btn-color: #2f3841;
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+.container {
+  font-family: "Overpass", sans-serif;
+  width: 100vw;
+  height: 100vh;
+  background-color: $very-dark-blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  color: $white;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  font-size: 13px;
+  color: $light-grey;
+  line-height: 1.5;
+  margin-bottom: 1.6rem;
+}
+
+@import "./form";
+@import "./thank-you";
