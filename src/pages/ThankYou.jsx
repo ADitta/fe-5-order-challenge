@@ -8,7 +8,7 @@ const ThankYou = ({ rating }) => {
           <img src={phone} alt="" />
           <div className="final-rating">
             <div className="rating-text">
-              <h2>You selected {rating ? rating : "?"} out of 5</h2>
+              <h2>You selected {rating} out of 5</h2>
             </div>
           </div>
           <h1>Thank you!</h1>
