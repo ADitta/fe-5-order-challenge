@@ -43,7 +43,7 @@ const Form = ({ setRating, rating }) => {
           5
         </button>
       </div>
-      <Link to={"/submitted"}>
+      <Link to={rating ? "/submitted" : "/"}>
         <button className="submit-btn">SUBMIT</button>
       </Link>
     </div>
